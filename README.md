@@ -38,10 +38,10 @@
 
 ### Annealed SDE + FKC
 <p align="center">
-  <img src="figures/fkc_comparison.png" width="600"/>
+  <img src="figures/fkc_comparison.png" width="900"/>
 </p>
 
 ### Reward-tilted Target + FKC
 <p align="center">
-  <img src="figures/reward_fkc_comparison.png" width="600"/>
+  <img src="figures/reward_fkc_comparison.png" width="900"/>
 </p>
