@@ -23,7 +23,7 @@ BF Jacobian denotes ground truth. Methods with prefix FP use finite-difference F
 | R10      | 0.9281 | 1.6109 | 11.0810 |
 
 ## FP++ Convergence Analysis
-The x-axis shows the number of independent runs (M). The y-axis shows the estimation error, defined as the average absolute difference between the estimated Jacobian determinant and the ground-truth value, averaged over both runs and a fixed set of samples (N=5). The plot illustrates how the estimation error decreases as M increases, demonstrating the convergence behavior of the estimator.
+The x-axis shows the number of independent runs (M). The y-axis shows the estimation error, defined as the average absolute difference between the estimated Jacobian determinant and the ground-truth value, averaged over both runs and a fixed set of samples (number=5). The plot illustrates how the estimation error decreases as M increases, demonstrating the convergence behavior of the estimator.
 ### 10D
 <p align="center">
   <img src="figures/FP_convergence_analysis_ndim10_full.png" width="600"/>
