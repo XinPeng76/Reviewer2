@@ -40,7 +40,7 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
 </p>
 
 
-## FP++ Convergence Analysis (VJP vs Finite Difference)
+## FP++ Convergence Analysis (JVP vs Finite Difference)
 
 ### 10D
 <p align="center">
