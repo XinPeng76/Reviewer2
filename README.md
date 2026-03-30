@@ -60,6 +60,8 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
 
 ## Feynman-Kac Correctors (FKC) Results on GMM 10D Benchmark
 
+In the figure, “neg ratio” denotes the fraction of samples with the first dimension less than 0, which corresponds to one mode of the mixture. The target ratio is 0.25, reflecting the desired 25/75 mixture proportion. 
+
 ### Annealed SDE + FKC
 <p align="center">
   <img src="figures/fkc_comparison.png" width="900"/>
