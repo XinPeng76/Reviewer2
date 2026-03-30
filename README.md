@@ -44,17 +44,17 @@ The x-axis shows the absolute estimation error, defined as the average absolute 
 
 ### 10D
 <p align="center">
-  <img src="figures/FP_convergence_analysis_ndim10_vjp.png" width="600"/>
+  <img src="figures/FP_convergence_analysis_ndim10_jvp.png" width="600"/>
 </p>
 
 ### 100D
 <p align="center">
-  <img src="figures/FP_convergence_analysis_ndim100_vjp.png" width="600"/>
+  <img src="figures/FP_convergence_analysis_ndim100_jvp.png" width="600"/>
 </p>
 
 ### 1000D
 <p align="center">
-  <img src="figures/FP_convergence_analysis_ndim1000_vjp.png" width="600"/>
+  <img src="figures/FP_convergence_analysis_ndim1000_jvp.png" width="600"/>
 </p>
 
 
