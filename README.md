@@ -1,4 +1,4 @@
-### Table: Variance of entropy estimator (1000 samples) across methods and dimensionalities
+### Table 1: Variance of entropy estimator (1000 samples) across methods and dimensionalities
 
 BF Jacobian denotes ground truth. Methods with prefix FP use finite-difference FP/FP++, where the number indicates the number of probes (e.g., FP1 uses 1 probe per estimate). Methods denoted as Gk and Rk correspond to Hutchinson estimators using Gaussian and Rademacher probes respectively, where k indicates the number of probes.
 
