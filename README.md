@@ -1,6 +1,6 @@
 ### Table: Variance of entropy estimator (1000 samples) across methods and dimensionalities
 
-BF Jacobian denotes ground truth.Methods with prefix FP use finite-difference FP/FP++, where the number indicates the number of probes (e.g., FP1 uses 1 probe per estimate). Methods denoted as Gk and Rk correspond to Gaussian and Rademacher probe estimators respectively, where k indicates the number of probes.
+BF Jacobian denotes ground truth. Methods with prefix FP use finite-difference FP/FP++, where the number indicates the number of probes (e.g., FP1 uses 1 probe per estimate). Methods denoted as Gk and Rk correspond to Hutchinson estimators using Gaussian and Rademacher probes respectively, where k indicates the number of probes.
 
 | Method   | GMM 10D | GMM 100D | GMM 1000D |
 |----------|--------:|---------:|----------:|
@@ -23,7 +23,7 @@ BF Jacobian denotes ground truth.Methods with prefix FP use finite-difference FP
 | R10      | 0.9281 | 1.6109 | 11.0810 |
 
 ## FP++ Convergence Analysis
-The x-axis shows the absolute estimation error, defined as the average absolute difference between the estimated Jacobian determinant and the ground-truth value across runs and samples. The y-axis represents the Number of Monte Carlo Samples (M). The plot illustrates the convergence behavior of the estimator as the number of runs increases.
+The x-axis shows the number of independent runs (M). The y-axis shows the estimation error, defined as the average absolute difference between the estimated Jacobian determinant and the ground-truth value, averaged over both runs and a fixed set of samples (N=5). The plot illustrates how the estimation error decreases as M increases, demonstrating the convergence behavior of the estimator.
 ### 10D
 <p align="center">
   <img src="figures/FP_convergence_analysis_ndim10_full.png" width="600"/>
