@@ -57,6 +57,11 @@ FP++ (finite) uses $\delta = 0.001$.
   <img src="figures/FP_convergence_analysis_ndim1000_jvp.png" width="600"/>
 </p>
 
+### Chignolin mutant
+<p align="center">
+  <img src="figures/FP_convergence_analysis_CGN525_jvp.png" width="600"/>
+</p>
+
 ## Effect of finite-difference step size $\delta$ in FP++
 FP++ results are shown with different finite-difference step sizes $\delta$. 
 The notation “FP++(0.5)” indicates the FP++ estimator evaluated with $\delta = 0.5$. 
