@@ -41,7 +41,7 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
 
 
 ## FP++ Convergence Analysis (JVP vs Finite Difference)
-
+FP++ (finite) uses $\delta = 0.001$.
 ### 10D
 <p align="center">
   <img src="figures/FP_convergence_analysis_ndim10_jvp.png" width="600"/>
