@@ -90,3 +90,10 @@ In the figure, “neg ratio” denotes the fraction of samples with the first di
 <p align="center">
   <img src="figures/reward_fkc_comparison.png" width="900"/>
 </p>
+
+
+### RNE
+<p align="center">
+  <img src="figures/em_rne_distribution2.png" width="900"/>
+</p>
+
