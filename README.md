@@ -98,7 +98,7 @@ In the figure, “neg ratio” denotes the fraction of samples with the first di
 </p>
 
 
-### Jacobian determinant accuracy under fully analytical 2D GMM benchmark
+## Jacobian determinant accuracy under fully analytical 2D GMM benchmark
 We evaluate FP++ under a fully analytical 2D Gaussian Mixture Model, where both the velocity field and its Jacobian are available in closed form. Initial points are uniformly sampled, and we report the mean Jacobian determinant over time $t \in [0,1]$. The results show that FP++ closely matches the analytical ground truth throughout the entire time interval.
 <p align="center">
   <img src="figures/fp_logdet_comparison.png" width="900"/>
