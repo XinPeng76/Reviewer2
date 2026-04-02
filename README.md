@@ -42,7 +42,7 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
 
 ## FP++ Convergence Analysis (JVP vs Finite Difference)
 
-FP++ (finite) uses $\delta = 0.001$. The x-axis shows the number of independent runs ($M$). The y-axis shows the estimation error, defined as the average absolute difference between the estimated Jacobian determinant and the ground-truth value, computed over both runs and a fixed set of samples (number = 5). The plot compares finite-difference and JVP estimators, illustrating how the estimation error decreases as $M$ increases and demonstrating the convergence behavior of the estimator.
+FP++ (finite) uses $\delta = 0.001$. The x-axis shows the number of independent runs (M). The y-axis shows the estimation error, defined as the average absolute difference between the estimated Jacobian determinant and the ground-truth value, computed over both runs and a fixed set of samples (number = 5). The plot compares finite-difference and JVP estimators, illustrating how the estimation error decreases as $M$ increases and demonstrating the convergence behavior of the estimator.
 ### 10D
 <p align="center">
   <img src="figures/FP_convergence_analysis_ndim10_jvp.png" width="600"/>
