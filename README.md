@@ -57,6 +57,25 @@ The x-axis shows the number of independent runs (M). The y-axis shows the estima
   <img src="figures/FP_convergence_analysis_ndim1000_jvp.png" width="600"/>
 </p>
 
+## Effect of finite-difference step size $\delta$ in FP++
+FP++ results are shown with different finite-difference step sizes $\delta$. 
+The notation “FP++(0.5)” indicates the FP++ estimator evaluated with $\delta = 0.5$. 
+Similarly, other curves labeled with values in parentheses correspond to different choices of $\delta$.
+
+### 10D
+<p align="center">
+  <img src="figures/FP_convergence_analysis_ndim10_jvp_2.png" width="600"/>
+</p>
+
+### 100D
+<p align="center">
+  <img src="figures/FP_convergence_analysis_ndim100_jvp_2.png" width="600"/>
+</p>
+
+### 1000D
+<p align="center">
+  <img src="figures/FP_convergence_analysis_ndim1000_jvp_2.png" width="600"/>
+</p>
 
 ## Feynman-Kac Correctors (FKC) Results on GMM 10D Benchmark
 
